@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    max-width: 1300px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+
+}
+nav.col{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.col2{
+    flex-basis: 50%;
+    min-width:300px;
+    display: inline-block;
+}
+ 
+
+ .col2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    border: none;
+    display: inline-block;
+
+ }
+nav{
+    text-align: right;
+}
+
+
+.btn{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: background 1s;
+
+}
+
+.btn:hover {
+background: black;
+color: white;
+}
+
+.header{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.header .row{
+    margin-top: 70px;
+}
+
+
+.col2 img {
+    position: relative;
+    display: inline-block;
+    border: none;
+    float: right;
+}
+ul img{
+    max-width: 50px;
+    max-height: 20px;
+}
+
+
+
+#exp{
+    display:inline-block;
+    float: left;
+    margin-top: 0px;
+    margin-right: 80%;
+}
+
+
+
+.col2 h1{
+    float: left;
+}
+.col2 img{
+    margin-top: 60px;
+}
+
+
+
+.col2 h1 {
+    margin-top: 60px;
+}
+nav ul img {
+    margin-left: 20px;
+}
+
+
+@media(max-width:750px){
+
+    nav ui { 
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #333;
+        width: 100%;
+        transition: max-height 0.5s;
+    }
+h1{
+    max-height: 100pxpx;
+    
+
+}
+
+
+
+}
+
+
+.hrader .row{
+    margin-top: 70px;
+
+}
+.categories{
+    margin: 70px 0px;
+    border: none;
+}
+.col-3{
+    flex-basis: 20%;
+
+    
+     
+}
+
+.col-3 img {
+    width: 50%;
+    border: none;
+    display:inline-block;
+    
+    
+    
+
+}
+.Pc{
+    text-align: center;
+    margin-top: 50px;
+}
+/* .small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+} */
+.col-3{
+    border:none ;
+    display: inline-block;
+    padding-right: 0%;
+    padding-left: 10%;
+    max-width: 400px;
+    margin-bottom: 70px;
+    
+
+}
+.col-3{
+    margin: 25px;
+    
+}
+#watch{
+    height: 250px;
+    width: 250px;
+}
+#phone{
+    height: 250px;
+    width: 200px;
+}
+
+
+.ctg-btn{
+    border: none;
+    text-align: center;
+    background-color: rgba(244, 20, 12, 0.933);
+    padding: 10px;
+    font-weight:700;
+    border-radius: 9px;
+    transition: background 1s;
+}
+
+
+.cbtn{
+    color: white;
+    
+}
+
+
+.ctg-btn:hover {
+    color: white;
+   background: black;
+    
+}
+
+.col-3:hover{
+    transition: 0 30px;
+}
+
+.same{
+    padding-right: 20px;
+    margin-right: 50PX;
+    border: none;
+}
+
+/* ------------------------------------More Product-------------------------------------- */
+.h-4{
+    text-align: center;
+ font-size: medium;
+ font-weight: 500;
+}
+
+.col-4{
+    border: none;
+  
+}
+
+.rating {
+    color: rgb(203, 7, 7);
+    display: inline;
+    
+  }
+.col-4{
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.small-container{
+    border:none;
+
+}
+
+.col-4{
+    flex-basis: 25%;
+   margin-top: 50px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+
+}
+#product-img{
+    max-width: 200px;
+    max-height: 300px;
+}
+
+
+.row{
+    display: inline;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 60px;
+    line-height: 50px;
+    color:black;
+}
+
+ /* --------------------------------------------HOVER EFFECT----------------------------------------- */
+
+
+.title::after{
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+
+    
+}
+
+.col-4:hover{
+    transform: translateY(-7px);
+}
+
+h5{
+    color: #333;
+
+}
+
+
+h5:hover{
+    
+    font-size: medium;
+
+}
+h4{
+    transition: transform 0.5s;
+    
+}
+ h4:hover{
+    color:orange;
+    transition: 0.8s;
+
+ }
+
+.rating:hover{
+    color: green;
+}
+
+
+
+
+/* ----------------------------------------COMING SOON ------------------------------------- */
+.mi12pro img{
+    margin-left: 400Px;
+    max-width: 600px;
+}
+.mi12pro{
+    background-color: black;
+}
+.coming-soon-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: transform;
+}
+
+.oming-soon-title:hover{
+    
+    
+    
+    background-color: #ff523b;
+}

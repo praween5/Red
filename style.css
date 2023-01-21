@@ -39,6 +39,10 @@ a{
 p{
     color: #555;
 }
+.logo img{
+    width:300px;
+    height: 80px;
+}
 .col2{
     flex-basis: 50%;
     min-width:300px;
@@ -335,9 +339,10 @@ h4{
 .mi12pro img{
     margin-left: 400Px;
     max-width: 600px;
+    text-align: center;
 }
 .mi12pro{
-    background-color: black;
+    background-color:black;
 }
 .coming-soon-title{
     text-align: center;
@@ -346,9 +351,10 @@ h4{
     transition: transform;
 }
 
-.oming-soon-title:hover{
+.coming-soon-title:hover{
     
-    background-color: #ff523b;
+   
+    color: aliceblue;
 }
 
 .pro{
@@ -363,4 +369,138 @@ h4{
    background-color: #333;
  transition: 2s;
 
+}
+
+/* ----------------------BRAND LOGO----------------------- */
+
+.logo{
+    display: inline-block;
+   
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.img-2 {height: 60px;
+    width: 80px;
+   margin-left: 20px;
+
+}
+
+.logo img :hover{
+    height:70px ;
+}
+
+
+/* ---------------------------------------testimonial----------------------------------------- */
+
+.testimonial{
+    padding-top: 100px;
+text-align: center;
+}
+
+
+.testimonial .col-5 {
+    text-align: center;
+    padding: 40px 20px;
+    display: inline-block;
+    cursor: pointer;
+     box-shadow:0 0 20px 0px rgb(0, 0, 0,0.1);
+    transition: transform 1s;
+    margin: 10px;
+}
+.testimonial .col-5 img{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+   
+}
+
+.testimonial .col-5:hover{
+    transform: translateY(-10px);
+
+
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color:red ;
+}
+
+#red{
+    color: red;
+}
+.brands{
+    margin: 100px;
+
+}
+.col-6{
+    display: inline-block;
+    width: 160px;
+    margin-right: px;
+    margin-left: 30px;
+ 
+    text-align: center;
+}
+.col-6 img {
+    width: 100px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-6 img:hover{
+    filter: grayscale(0%);
+}
+
+/* ----------------------------------------------------FOOTER--------------------------------------------------------------------- */
+ #dis{
+display: inline-block;
+
+ }
+.footer{
+    background-color: black;
+    color: white;
+    padding: 50px; 
+    overflow: auto;
+}
+.footer p{
+    color: white;
+    border: none;
+
+ 
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 0px;
+border: none;
+
+}
+#row2{
+    border: none;
+    display: block;   
+}
+ul{
+    list-style: none;
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-col-2 img{
+    margin: 10px;
+}
+.footer-col-3{
+    border: none;
+    color: rgb(99, 93, 93);
+}
+.footer-col-4{
+    
+    margin-left: 50px;
+    color: rgb(96, 94, 94);   
+}
+.footer-box-2{
+    border: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.footer-box-1{
+    display: inline-block;
+    border: none;
+    float: right;
 }

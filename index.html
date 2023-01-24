@@ -18,18 +18,21 @@
                 <img src="logo2.jpg" alt="">
             </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Product</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">contact</a></li>
-                <li><a href="">Account</a></li>
-                <img src="kartlogo.png" alt="">
-                <img src="menulogo.png" alt="">
-            </ul>
-        </nav>
-
+        <div class="menu2">
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="About.html" target="_blank">About</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="">Account</a></li><br>
+                    
+                </ul>
+                <img src="cart-icon.png" alt="" class="cart-icon">
+                <img src="menulogo.png" class="menu-icon" onclick="menutoggle()" >
+            </nav>
+        </div>
+     
 <div class="row">
     <div class="col2">
         
@@ -86,7 +89,7 @@
             <div class="row">
                 <div class="col-4">
                     <img src="redmi-10a1.jpg" alt="" id="product-img">
-                    <h4>Redmi 10A</h4>
+                    <h4 id="nrp" >Redmi 10A</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -112,6 +115,19 @@
                     </div>
                     <p><h5>₹ 2,999</h5></p>
                 </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="realme-airbids-1.webp" alt="" id="product-img" height="200px">
+                        <h4>Realme Airpods </h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p><h5>₹ 3,499</h5></p>
+                    </div>
 
                 <div class="row" >
                     <div class="col-4">
@@ -154,6 +170,34 @@
                                 </div>
                                 <p><h5>₹ 9,999</h5></p>
                             </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="realme-neck-band-1.webp" alt="" id="product-img">
+                                    <h4>Realme Buds <br> wireless 2</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                    <p><h5>₹ 9,999</h5></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="mi12pro-old.jpg" alt="" id="product-img">
+                                        <h4>Sony Alpha  <br> Mirrorless Camera</h4>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <p><h5>₹ 56,999</h5></p>
+                                    </div>
+                
+    
 
 
 
@@ -170,22 +214,24 @@
 <div class="pro"> <h1>Redmi Note 12Pro + 5G</h1> </div>
 
 <div class="mi12pro">
-    <img src="Mi12pro1.jpg" alt="" id="mi">
-    <img src="Mi12pro2.jpg" alt="" id="mi">
-    <img src="Mi12pro3.jpg" alt="" id="mi">
-    <img src="Mi12pro4.jpg" alt="" id="mi">
-    <img src="Mi12pro5.jpg" alt="" id="mi">
-    <img src="Mi12pro6.jpg" alt="" id="mi">
-    <img src="Mi12pro7.jpg" alt="" id="mi">
-    <img src="Mi12pro8.jpg" alt="" id="mi">
-    <img src="Mi12pro9.jpg" alt="" id="mi">
-    <img src="Mi12pro10.jpg" alt="" id="mi">
-    <img src="Mi12pro11.jpg" alt="" id="mi">
-    <img src="Mi12pro12.jpg" alt="" id="mi">
-    <img src="Mi12pro13.jpg" alt="" id="mi">
-    <img src="Mi12pro14.jpg" alt="" id="mi">
-    <img src="Mi12pro15.jpg" alt="" id="mi">
- 
+    <div class="mi12pro"><img src="Mi12pro1.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro2.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro3.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro4.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro5.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro6.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro7.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro8.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro9.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro10.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro11.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro12.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro13.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro14.jpg" alt="" id="mi"></div>
+    <div class="mi12pro"><img src="Mi12pro15.jpg" alt="" id="mi"></div>
+  
+
+    
     
     
 </div>
@@ -284,6 +330,7 @@
         </div>
     </div>
 </div>
+<div class="backtohome"><a href="index.html"> Back to Home</a></div>
 <!-- --------------------------------------------------------------FOOTER--------------------------------------------------- -->
 <div class="footer" >
     <div class="footer-logo">
@@ -326,8 +373,47 @@
              </div>
        
         </div>
+    
     </div>
 </div>
+<!-- ------------------------------js-media query------------------------------- -->
+
+<script>
+    var menuItems = document.getElementById("menuItems");
+
+    menuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(menuItems.style.maxHeight == "0px")
+        {
+            menuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            menuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+
 
 
 </body>
